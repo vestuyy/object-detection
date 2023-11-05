@@ -191,3 +191,52 @@ if __name__ == '__main__':
 ```
 
 # 4. Define Test function
+
+
+# 5. Diagram and description 
+
+Project Workflow Description:
+
+[1] Environment Preparation:
+
+A new conda environment named pytorch_transformer_py3.11 is created and activated, using Python 3.11.
+Key libraries for deep learning and transformers, including PyTorch, torchvision, torchaudio, and CUDA support, are installed.
+Additional packages such as transformers and timm are installed via pip.
+
+[2] PyCharm Setup:
+
+PyCharm, an Integrated Development Environment (IDE), is set up for Python development. This typically involves configuring the interpreter, creating a project, and possibly setting up version control.
+
+[3] Codebase Overview:
+
+The script imports necessary libraries (transformers, PIL) and defines functions.
+A function print_hi is defined for initial greetings.
+A function draw_bounding_box is created to draw bounding boxes with labels around detected objects in an image.
+The main execution block loads an image, initializes an object detection model from the Hugging Face transformers library, processes the image to detect objects, draws bounding boxes with labels around detected objects, and saves the resultant image.
+
+Flow Diagram:
+
++---------------------+      +----------------------+      +--------------------------+
+|    Create and       |      |      Activate       |      |    Install Libraries     |
+| Activate Environment| ---> |   Conda Environment | ---> | (PyTorch, transformers)  |
++---------------------+      +----------------------+      +--------------------------+
+                                       |
+                                       V
+                              +-------------------+      +------------------------+
+                              |   Setup PyCharm   | ---> |   Write/Load Python    |
+                              |   for Development |      |      Script            |
+                              +-------------------+      +------------------------+
+                                                                   |
+                                                                   V
+                              +--------------------------+      +-----------------------------------+
+                              |   Initialize Object      |      |   Process Image and Detect        |
+                              |  Detection Pipeline      | ---> |   Objects with Bounding Boxes     |
+                              +--------------------------+      +-----------------------------------+
+                                                                   |
+                                                                   V
+                                                          +-----------------------------+
+                                                          |   Save Image with Drawn     |
+                                                          |   Bounding Boxes            |
+                                                          +-----------------------------+
+
+This flowchart demonstrates the sequential steps taken in the project, from setting up the development environment to running the object detection script and saving the output. The actual complexity of the diagram can be much greater, depending on the depth of detail required (such as error handling, testing procedures, etc.). In a software diagramming tool, this workflow would typically be represented with more formal symbols and connections, but the above ASCII diagram provides a simplified visual representation of the process.
