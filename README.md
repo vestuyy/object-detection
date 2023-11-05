@@ -15,7 +15,7 @@ Transformers are a type of model that, unlike CNNs, rely on self-attention mecha
 
 Here's a step-by-step breakdown of the project phases mentioned:
 
-<::marker></::marker> [1] Prepare the Environment:
+::marker [1] Prepare the Environment:
 
 The first step is to set up a Python environment using Anaconda, which is a popular distribution of Python for scientific computing. The given commands create a new environment with Python 3.11, and install PyTorch (a deep learning library), along with its companion libraries for vision (torchvision) and audio (torchaudio), and CUDA for GPU acceleration.
 Additional libraries transformers (for accessing pretrained models and pipelines for object detection) and timm (a collection of image models) are also installed using pip.
