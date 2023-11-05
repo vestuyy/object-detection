@@ -54,7 +54,57 @@ pip install timm
 
 ### 2. Setup PyCharm 
 
-Here is how to setup PyCharm 
+Setting up PyCharm for a Python project involves several steps to ensure that your development environment is ready for coding. Here’s a step-by-step guide to setting up PyCharm after you've installed it on your machine:
+
+[1] Launch PyCharm:
+
+Open PyCharm either from your desktop shortcut or from the applications menu.
+
+[2] Create a New Project:
+
+On the Welcome screen, choose “Create New Project”.
+In the "New Project" window, you can specify the project name and the location where it should be saved.
+Make sure that the "Project Interpreter" section is set to create a new virtual environment by default. If you want to use the Anaconda environment you've created (pytorch_transformer_py3.11), you will need to configure this manually.
+
+[3] Set Up Project Interpreter:
+
+If you need to configure the Anaconda environment, click on the "Project Interpreter" dropdown.
+Select "Show All".
+In the next window, click on the "+" button to add a new interpreter.
+Choose "Conda Environment" and then "Existing Environment".
+Click on the "..." button to browse and select the Anaconda environment you have created (pytorch_transformer_py3.11).
+
+[4] Install Required Packages:
+
+Once the interpreter is set up, you can install the required packages (torch, torchvision, torchaudio, transformers, and timm) if you haven’t done so already.
+Go to "File" > "Settings" (or "PyCharm" > "Preferences" on macOS) > "Project: [Your Project Name]" > "Python Interpreter".
+Click on the "+" icon to add a new package. Search for the package names and install them one by one.
+
+[5] Configure Project Structure:
+
+To mark directories with special functions (like the folders for sources or tests), you can go to "File" > "Settings" > "Project: [Your Project Name]" > "Project Structure".
+Select folders and mark them as "Sources", "Tests", etc., according to your project organization.
+
+[6] Set Up Version Control (Optional):
+
+If you want to use version control like Git, you can go to "VCS" > "Enable Version Control Integration".
+Choose the version control system you want to use and set up the repository.
+
+[7] Run Configuration:
+
+Go to "Run" > "Edit Configurations".
+Click the "+" button and select "Python".
+Give a name to your configuration, select the script path to point to your main Python file, and ensure the right Python interpreter is selected.
+
+[8] Code Style and Inspections:
+
+You can customize the code style (indentations, line spacing, etc.) through "File" > "Settings" > "Editor" > "Code Style".
+You can also configure code inspections by going to "File" > "Settings" > "Editor" > "Inspections" to set up how PyCharm should analyze your code for errors and standards.
+
+[9] Start Coding:
+
+With everything set up, you can start writing your code in the PyCharm editor. Use the terminal inside PyCharm or the built-in Python console to execute scripts and commands.
+After you've completed these steps, your PyCharm environment should be fully configured and ready for you to begin developing your object detection project using the Python codebase you have prepared
 
 
 # 3. Prepare the Codebase
