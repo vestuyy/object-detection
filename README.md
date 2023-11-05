@@ -216,8 +216,6 @@ Result :
 
 # 5. Diagram and description 
 
-![25f20489ac843dc6398b6dadb46865a1](https://github.com/vestuyy/object-detection/assets/125790973/a8472bf2-577f-4ad1-beac-06af90aef2e6)
-
 
 Project Workflow Description:
 
