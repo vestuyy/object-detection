@@ -215,7 +215,7 @@ A function draw_bounding_box is created to draw bounding boxes with labels aroun
 The main execution block loads an image, initializes an object detection model from the Hugging Face transformers library, processes the image to detect objects, draws bounding boxes with labels around detected objects, and saves the resultant image.
 
 Flow Diagram:
-
+```python
 +---------------------+      +----------------------+      +--------------------------+
 |    Create and       |      |      Activate       |      |    Install Libraries     |
 | Activate Environment| ---> |   Conda Environment | ---> | (PyTorch, transformers)  |
@@ -239,4 +239,5 @@ Flow Diagram:
                                                           |   Bounding Boxes            |
                                                           +-----------------------------+
 
+```
 This flowchart demonstrates the sequential steps taken in the project, from setting up the development environment to running the object detection script and saving the output. The actual complexity of the diagram can be much greater, depending on the depth of detail required (such as error handling, testing procedures, etc.). In a software diagramming tool, this workflow would typically be represented with more formal symbols and connections, but the above ASCII diagram provides a simplified visual representation of the process.
