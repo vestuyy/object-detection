@@ -15,22 +15,22 @@ Transformers are a type of model that, unlike CNNs, rely on self-attention mecha
 
 Here's a step-by-step breakdown of the project phases mentioned:
 
-[1] Prepare the Environment:
+• Prepare the Environment:
 
 The first step is to set up a Python environment using Anaconda, which is a popular distribution of Python for scientific computing. The given commands create a new environment with Python 3.11, and install PyTorch (a deep learning library), along with its companion libraries for vision (torchvision) and audio (torchaudio), and CUDA for GPU acceleration.
 Additional libraries transformers (for accessing pretrained models and pipelines for object detection) and timm (a collection of image models) are also installed using pip.
 
-[2] Setup PyCharm:
+• Setup PyCharm:
 
 PyCharm is an Integrated Development Environment (IDE) used for Python development. Setting it up involves configuring the project to use the Anaconda environment created in the previous step and ensuring all the dependencies are recognized within the IDE.
 
-[3] Prepare the Codebase:
+• Prepare the Codebase:
 
 The provided Python script serves as the foundation of the object detection project. It utilizes the transformers pipeline for object detection, loads an image from the filesystem, and performs object detection on that image.
 The script defines a function draw_bounding_box that takes the coordinates of the detected object and draws a rectangular box around it, including the label and the confidence score.
 After running the detection, it saves a new image with the bounding boxes drawn on top of the original image to visually represent the detected objects.
 
-[4] Define Test Function:
+• Define Test Function:
 
 Although not provided in the text, a test function in this context would likely involve a routine that systematically evaluates the object detection model with various test images to assess its performance. It would check if the bounding boxes are accurately placed around the objects and if the correct labels are assigned with a confidence score that reflects the model's certainty.
 For the script to function correctly, the user would need to have an image named "almaty_park.jpg" in the same directory as the script and an accessible "arial.ttf" font file for text annotations. The test function would be expected to automate the process of validating the model's detection accuracy on a pre-defined set of test images.
@@ -56,17 +56,17 @@ pip install timm
 
 Setting up PyCharm for a Python project involves several steps to ensure that your development environment is ready for coding. Here’s a step-by-step guide to setting up PyCharm after you've installed it on your machine:
 
-[1] Launch PyCharm:
+• Launch PyCharm:
 
 Open PyCharm either from your desktop shortcut or from the applications menu.
 
-[2] Create a New Project:
+• Create a New Project:
 
 On the Welcome screen, choose “Create New Project”.
 In the "New Project" window, you can specify the project name and the location where it should be saved.
 Make sure that the "Project Interpreter" section is set to create a new virtual environment by default. If you want to use the Anaconda environment you've created (pytorch_transformer_py3.11), you will need to configure this manually.
 
-[3] Set Up Project Interpreter:
+• Set Up Project Interpreter:
 
 If you need to configure the Anaconda environment, click on the "Project Interpreter" dropdown.
 Select "Show All".
@@ -74,34 +74,34 @@ In the next window, click on the "+" button to add a new interpreter.
 Choose "Conda Environment" and then "Existing Environment".
 Click on the "..." button to browse and select the Anaconda environment you have created (pytorch_transformer_py3.11).
 
-[4] Install Required Packages:
+• Install Required Packages:
 
 Once the interpreter is set up, you can install the required packages (torch, torchvision, torchaudio, transformers, and timm) if you haven’t done so already.
 Go to "File" > "Settings" (or "PyCharm" > "Preferences" on macOS) > "Project: [Your Project Name]" > "Python Interpreter".
 Click on the "+" icon to add a new package. Search for the package names and install them one by one.
 
-[5] Configure Project Structure:
+• Configure Project Structure:
 
 To mark directories with special functions (like the folders for sources or tests), you can go to "File" > "Settings" > "Project: [Your Project Name]" > "Project Structure".
 Select folders and mark them as "Sources", "Tests", etc., according to your project organization.
 
-[6] Set Up Version Control (Optional):
+• Set Up Version Control (Optional):
 
 If you want to use version control like Git, you can go to "VCS" > "Enable Version Control Integration".
 Choose the version control system you want to use and set up the repository.
 
-[7] Run Configuration:
+• Run Configuration:
 
 Go to "Run" > "Edit Configurations".
 Click the "+" button and select "Python".
 Give a name to your configuration, select the script path to point to your main Python file, and ensure the right Python interpreter is selected.
 
-[8] Code Style and Inspections:
+• Code Style and Inspections:
 
 You can customize the code style (indentations, line spacing, etc.) through "File" > "Settings" > "Editor" > "Code Style".
 You can also configure code inspections by going to "File" > "Settings" > "Editor" > "Inspections" to set up how PyCharm should analyze your code for errors and standards.
 
-[9] Start Coding:
+• Start Coding:
 
 With everything set up, you can start writing your code in the PyCharm editor. Use the terminal inside PyCharm or the built-in Python console to execute scripts and commands.
 After you've completed these steps, your PyCharm environment should be fully configured and ready for you to begin developing your object detection project using the Python codebase you have prepared
@@ -202,17 +202,17 @@ Result :
 
 Project Workflow Description:
 
-[1] Environment Preparation:
+• Environment Preparation:
 
 A new conda environment named pytorch_transformer_py3.11 is created and activated, using Python 3.11.
 Key libraries for deep learning and transformers, including PyTorch, torchvision, torchaudio, and CUDA support, are installed.
 Additional packages such as transformers and timm are installed via pip.
 
-[2] PyCharm Setup:
+• PyCharm Setup:
 
 PyCharm, an Integrated Development Environment (IDE), is set up for Python development. This typically involves configuring the interpreter, creating a project, and possibly setting up version control.
 
-[3] Codebase Overview:
+• Codebase Overview:
 
 The script imports necessary libraries (transformers, PIL) and defines functions.
 A function print_hi is defined for initial greetings.
