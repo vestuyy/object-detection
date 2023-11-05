@@ -192,6 +192,9 @@ if __name__ == '__main__':
 
 # 4. Define Test function
 
+![almaty_park jpg_boxes](https://github.com/vestuyy/object-detection/assets/125790973/d2ad29d6-c7ac-4c64-b8d9-1c8f5f163815)
+
+
 
 # 5. Diagram and description 
 
