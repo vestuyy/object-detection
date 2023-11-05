@@ -15,19 +15,22 @@ Transformers are a type of model that, unlike CNNs, rely on self-attention mecha
 
 Here's a step-by-step breakdown of the project phases mentioned:
 
-Prepare the Environment:
+[1] Prepare the Environment:
 
 The first step is to set up a Python environment using Anaconda, which is a popular distribution of Python for scientific computing. The given commands create a new environment with Python 3.11, and install PyTorch (a deep learning library), along with its companion libraries for vision (torchvision) and audio (torchaudio), and CUDA for GPU acceleration.
 Additional libraries transformers (for accessing pretrained models and pipelines for object detection) and timm (a collection of image models) are also installed using pip.
-Setup PyCharm:
+
+[2] Setup PyCharm:
 
 PyCharm is an Integrated Development Environment (IDE) used for Python development. Setting it up involves configuring the project to use the Anaconda environment created in the previous step and ensuring all the dependencies are recognized within the IDE.
-Prepare the Codebase:
+
+[3] Prepare the Codebase:
 
 The provided Python script serves as the foundation of the object detection project. It utilizes the transformers pipeline for object detection, loads an image from the filesystem, and performs object detection on that image.
 The script defines a function draw_bounding_box that takes the coordinates of the detected object and draws a rectangular box around it, including the label and the confidence score.
 After running the detection, it saves a new image with the bounding boxes drawn on top of the original image to visually represent the detected objects.
-Define Test Function:
+
+[4] Define Test Function:
 
 Although not provided in the text, a test function in this context would likely involve a routine that systematically evaluates the object detection model with various test images to assess its performance. It would check if the bounding boxes are accurately placed around the objects and if the correct labels are assigned with a confidence score that reflects the model's certainty.
 For the script to function correctly, the user would need to have an image named "almaty_park.jpg" in the same directory as the script and an accessible "arial.ttf" font file for text annotations. The test function would be expected to automate the process of validating the model's detection accuracy on a pre-defined set of test images.
