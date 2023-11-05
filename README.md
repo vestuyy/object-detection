@@ -39,6 +39,9 @@ After running the detection, it saves a new image with the bounding boxes drawn 
 Although not provided in the text, a test function in this context would likely involve a routine that systematically evaluates the object detection model with various test images to assess its performance. It would check if the bounding boxes are accurately placed around the objects and if the correct labels are assigned with a confidence score that reflects the model's certainty.
 For the script to function correctly, the user would need to have an image named "almaty_park.jpg" in the same directory as the script and an accessible "arial.ttf" font file for text annotations. The test function would be expected to automate the process of validating the model's detection accuracy on a pre-defined set of test images.
 
+![120116249-ea9eb900-c1a4-11eb-8265-16b1e1649867](https://github.com/vestuyy/object-detection/assets/125790973/981da44a-4b78-44be-80e4-180d36a0b14d)
+
+
 
 # 1. Prepare the environment  
 
