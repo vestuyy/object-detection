@@ -1,14 +1,22 @@
-Contents
-Project Overview
-Prepare the environment
-Setup PyCharm
-Prepare the Codebase
-Define Test function
-Project Overview
-Write about project overview. Explain what is a object detection and how it works.
+# Contents
+ - [Project Overview](#project-overview) 
+ - [Prepare the environment](#1-prepare-the-environment)
+ - [Setup PyCharm](#2-Setup-pycharm)
+ - [Prepare the Codebase](#3-prepare-the-code-base)
+ - [Define Test function](#4-define-test-function)
+ 
+# Project Overview 
 
-1. Prepare the environment
-1. Open Anaconda prompt and exectute the following commands to setup the environment
+Write about project overview. Explain what is a object detection and how it works.  
+
+
+
+# 1. Prepare the environment  
+
+
+### 1. Open Anaconda prompt and exectute the following commands to setup the environment
+ 
+```python
 conda create --name pytorch_transformer_py3.11 python==3.11
 conda activate pytorch_transformer_py3.11
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
@@ -16,10 +24,19 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 pip install transformers
 
 pip install timm
-2. Setup PyCharm
-Here is how to setup PyCharm
 
-3. Prepare the Codebase
+```
+
+### 2. Setup PyCharm 
+
+Here is how to setup PyCharm 
+
+
+# 3. Prepare the Codebase
+
+
+```python
+
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -94,4 +111,8 @@ if __name__ == '__main__':
 
 
 
-4. Define Test function
+
+
+```
+
+# 4. Define Test function
