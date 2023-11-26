@@ -267,7 +267,7 @@ Flow Diagram:
 ```
 This flowchart demonstrates the sequential steps taken in the project, from setting up the development environment to running the object detection script and saving the output. The actual complexity of the diagram can be much greater, depending on the depth of detail required (such as error handling, testing procedures, etc.). In a software diagramming tool, this workflow would typically be represented with more formal symbols and connections, but the above ASCII diagram provides a simplified visual representation of the process.
 
-#6. Technical Details
+# 6. Technical Details
 
 How Transformers Work
 Transformers are a groundbreaking architecture in the field of natural language processing, introduced in the paper "Attention Is All You Need" by Vaswani et al. in 2017. Unlike previous models that relied on sequential data processing (like RNNs and LSTMs), transformers use a mechanism called self-attention to process input data in parallel, leading to significant improvements in efficiency and performance.
