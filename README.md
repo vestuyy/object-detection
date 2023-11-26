@@ -272,7 +272,7 @@ This flowchart demonstrates the sequential steps taken in the project, from sett
 How Transformers Work
 Transformers are a groundbreaking architecture in the field of natural language processing, introduced in the paper "Attention Is All You Need" by Vaswani et al. in 2017. Unlike previous models that relied on sequential data processing (like RNNs and LSTMs), transformers use a mechanism called self-attention to process input data in parallel, leading to significant improvements in efficiency and performance.
 
-Key Components of Transformers:
+[1] Key Components of Transformers:
 
 • Encoder and Decoder Blocks: The transformer model consists of encoder and decoder blocks. The encoder processes the input data, and the decoder generates the output. In tasks like object detection, often only the encoder part is used.
 
@@ -286,10 +286,10 @@ Key Components of Transformers:
 
 • Layer Normalization and Residual Connections: These components help in stabilizing the learning process and allow for deeper networks by preventing the vanishing gradient problem.
 
-Object Detection Pipeline in Transformers
+[2] Object Detection Pipeline in Transformers
 In the context of object detection, transformers are used to process images and identify objects within them. The process typically involves the following steps:
 
-•I mage Preprocessing: The input image is preprocessed into a format suitable for the transformer model, often involving resizing and normalization.
+• Image Preprocessing: The input image is preprocessed into a format suitable for the transformer model, often involving resizing and normalization.
 
 • Feature Extraction: In some transformer-based models, features from the image are first extracted using a CNN. These features are then passed to the transformer.
  
