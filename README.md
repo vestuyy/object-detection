@@ -266,3 +266,35 @@ Flow Diagram:
 
 ```
 This flowchart demonstrates the sequential steps taken in the project, from setting up the development environment to running the object detection script and saving the output. The actual complexity of the diagram can be much greater, depending on the depth of detail required (such as error handling, testing procedures, etc.). In a software diagramming tool, this workflow would typically be represented with more formal symbols and connections, but the above ASCII diagram provides a simplified visual representation of the process.
+
+#6. Technical Details
+
+How Transformers Work
+Transformers are a groundbreaking architecture in the field of natural language processing, introduced in the paper "Attention Is All You Need" by Vaswani et al. in 2017. Unlike previous models that relied on sequential data processing (like RNNs and LSTMs), transformers use a mechanism called self-attention to process input data in parallel, leading to significant improvements in efficiency and performance.
+
+Key Components of Transformers:
+
+• Encoder and Decoder Blocks: The transformer model consists of encoder and decoder blocks. The encoder processes the input data, and the decoder generates the output. In tasks like object detection, often only the encoder part is used.
+
+• Self-Attention Mechanism: This is the core of the transformer. It allows the model to weigh the importance of different parts of the input data. For example, in a sentence, the model can focus more on relevant words while processing a particular word.
+
+• Positional Encoding: Since transformers do not process data sequentially, they need a way to understand the order of the input. Positional encoding is added to the input embeddings to provide the model with information about the position of each element in the sequence.
+
+• Multi-Head Attention: This involves running the self-attention mechanism multiple times in parallel. The independent attention outputs are then combined and processed, allowing the model to focus on different positions and capture a broader context.
+ 
+• Feed-Forward Networks: Each encoder and decoder block contains a feed-forward network that applies linear transformations to the output of the attention layer, followed by a non-linear activation function.
+
+• Layer Normalization and Residual Connections: These components help in stabilizing the learning process and allow for deeper networks by preventing the vanishing gradient problem.
+
+Object Detection Pipeline in Transformers
+In the context of object detection, transformers are used to process images and identify objects within them. The process typically involves the following steps:
+
+•I mage Preprocessing: The input image is preprocessed into a format suitable for the transformer model, often involving resizing and normalization.
+
+• Feature Extraction: In some transformer-based models, features from the image are first extracted using a CNN. These features are then passed to the transformer.
+ 
+• Applying Transformers: The transformer processes the image (or extracted features) using its self-attention mechanism. This allows the model to focus on relevant parts of the image for object detection.
+
+• Bounding Box Prediction: The transformer outputs predictions, which include the coordinates for bounding boxes around detected objects, along with classification labels and confidence scores.
+
+• Post-Processing: This step may involve filtering overlapping boxes using methods like Non-Maximum Suppression (NMS) and thresholding the confidence scores to improve the precision of object detection.
