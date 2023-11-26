@@ -302,25 +302,46 @@ In the context of object detection, transformers are used to process images and 
 # 7. Results
 
 1. Performance Metrics:
+
 • Accuracy: Report on the accuracy of the model in correctly identifying and locating objects in test images.
+
 • Precision and Recall: Important in understanding the model's ability to correctly identify objects (precision) and its capability to find all relevant instances (recall).
 • F1 Score: A combined metric that balances precision and recall.
+
 • Average Precision (AP) and mean Average Precision (mAP): These metrics are particularly important in object detection tasks, as they consider the accuracy of the bounding boxes.
+
 2. Qualitative Analysis:
+   
 • Visual Comparisons: Present side-by-side images showing the original test images and the same images with the model’s predicted bounding boxes and labels. This visual representation helps in assessing how well the model is performing.
-Case Studies: Highlight specific examples where the model performed exceptionally well or instances where it struggled. Discuss potential reasons for these outcomes.
+
+• Case Studies: Highlight specific examples where the model performed exceptionally well or instances where it struggled. Discuss potential reasons for these outcomes.
+
 3. Quantitative Analysis:
+
 • Statistical Overview: Provide statistics on the overall performance across the test dataset.
+
 • Error Analysis: Break down the types of errors (e.g., missed detections, false positives, inaccurate bounding boxes) and their frequencies.
+
 • Performance Across Different Categories: If the model was tested on varied types of objects, analyze its performance across these different categories.
+
 4. Comparative Analysis:
+   
 • If applicable, compare the performance of your transformer-based model with other models, especially traditional CNN-based approaches. This comparison can highlight the strengths and weaknesses of transformers in object detection.
+
 5. Discussion of Results:
+   
 • Interpretation: Offer insights into what the results indicate about the model’s capabilities and limitations.
+
 • Impact of Hyperparameters and Architecture Choices: Discuss how different settings or design choices in the model architecture impacted the results.
+
 • Challenges and Limitations: Address any challenges faced during testing and limitations of the current model.
+
 6. Future Improvements:
+   
 • Suggest potential improvements or areas for further research, such as fine-tuning the model, using a larger dataset, or experimenting with different transformer architectures.
+
 7. Conclusion:
+
 • Summarize the key findings and their implications for the field of object detection.
+
 By presenting the results in this structured manner, you can provide a comprehensive and clear view of your model's performance, offering valuable insights into its effectiveness and areas for future enhancement.
