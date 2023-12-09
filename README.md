@@ -5,6 +5,8 @@
  - [Prepare the Codebase](#3-prepare-the-code-base)
  - [Define Test function](#4-define-test-function)
  - [Diagram and description](#5-diagram-and-description)
+ - [Technical Details](#6-technical-details)
+ - [Results](#7-results)
 # Project Overview 
 
 The project in discussion seems to be centered around object detection using a transformer-based model from the Hugging Face transformers library in Python. Object detection is a computer vision technique that allows us to identify and locate objects within an image or a video. This capability is crucial for many applications such as autonomous vehicles, security systems, image retrieval systems, and in industrial settings for defect detection.
