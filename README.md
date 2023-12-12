@@ -273,6 +273,7 @@ Flow Diagram:
                                                           +-----------------------------+
 
 ```
+![flow_diagram](https://github.com/vestuyy/object-detection/blob/main/fasfasf.PNG)
 This flowchart demonstrates the sequential steps taken in the project, from setting up the development environment to running the object detection script and saving the output. The actual complexity of the diagram can be much greater, depending on the depth of detail required (such as error handling, testing procedures, etc.). In a software diagramming tool, this workflow would typically be represented with more formal symbols and connections, but the above ASCII diagram provides a simplified visual representation of the process.
 
 # 6. Technical Details
