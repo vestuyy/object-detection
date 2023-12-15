@@ -10,7 +10,7 @@
  - [Results](#7-results)
 # Project Overview 
 
-The project in discussion seems to be centered around object detection using a transformer-based model from the Hugging Face transformers library in Python. Object detection is a computer vision technique that allows us to identify and locate objects within an image or a video. This capability is crucial for many applications such as autonomous vehicles, security systems, image retrieval systems, and in industrial settings for defect detection.
+ Object detection is a computer vision technique that allows us to identify and locate objects within an image or a video. This capability is crucial for many applications such as autonomous vehicles, security systems, image retrieval systems, and in industrial settings for defect detection.
 
 Object detection models typically work by analyzing an image and identifying patterns or features that correspond to known objects. These models can be trained using large datasets of labeled images where the objects of interest are annotated with bounding boxes. Modern object detection systems often utilize deep learning, and in particular, Convolutional Neural Networks (CNNs) or Transformers to learn these features.
 
