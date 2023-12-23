@@ -1,13 +1,13 @@
 # Contents
  - [Project Overview](#project-overview)
- - [Understanding Transformers in Object Detection](#1-understanding-transformers-in-object-detection)
- - [Prepare the environment](#2-prepare-the-environment)
- - [Setup PyCharm](#3-Setup-pycharm)
- - [Prepare the Codebase](#4-prepare-the-code-base)
- - [Define Test function](#5-define-test-function)
- - [Diagram and description](#6-diagram-and-description)
- - [Technical Details](#7-technical-details)
- - [Results](#8-results)
+ - [Understanding Transformers in Object Detection](#understanding-transformers-in-object-detection)
+ - [Prepare the environment](#1-prepare-the-environment)
+ - [Setup PyCharm](#2-Setup-pycharm)
+ - [Prepare the Codebase](#3-prepare-the-code-base)
+ - [Define Test function](#4-define-test-function)
+ - [Diagram and description](#5-diagram-and-description)
+ - [Technical Details](#6-technical-details)
+ - [Results](#7-results)
 # Project Overview 
 
  Object detection is a computer vision technique that allows us to identify and locate objects within an image or a video. This capability is crucial for many applications such as autonomous vehicles, security systems, image retrieval systems, and in industrial settings for defect detection.
@@ -44,7 +44,7 @@ For the script to function correctly, the user would need to have an image named
 
 ![120116249-ea9eb900-c1a4-11eb-8265-16b1e1649867](https://github.com/vestuyy/object-detection/assets/125790973/981da44a-4b78-44be-80e4-180d36a0b14d)
 
-# 1. Undertanding Transformers in Object Detection
+# 1. Understanding Transformers in Object Detection
 
 Transformers, initially designed for natural language processing tasks, have shown remarkable versatility and have been effectively adapted for computer vision applications, including object detection. Here's how they contribute to the process:
 
