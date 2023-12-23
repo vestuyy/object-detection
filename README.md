@@ -101,7 +101,7 @@ pip install timm
 
 ```
 
-### 3. Setup PyCharm 
+# 3. Setup PyCharm 
 
 Setting up PyCharm for a Python project involves several steps to ensure that your development environment is ready for coding. Here’s a step-by-step guide to setting up PyCharm after you've installed it on your machine:
 
