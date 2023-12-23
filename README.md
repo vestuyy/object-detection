@@ -1,13 +1,13 @@
 # Contents
  - [Project Overview](#project-overview)
- - [Understanding Transformers in Object Detection](#understanding-transformers-in-object-detection)
- - [Prepare the environment](#1-prepare-the-environment)
- - [Setup PyCharm](#2-Setup-pycharm)
- - [Prepare the Codebase](#3-prepare-the-code-base)
- - [Define Test function](#4-define-test-function)
- - [Diagram and description](#5-diagram-and-description)
- - [Technical Details](#6-technical-details)
- - [Results](#7-results)
+ - [Understanding Transformers in Object Detection](#1-understanding-transformers-in-object-detection)
+ - [Prepare the environment](#2-prepare-the-environment)
+ - [Setup PyCharm](#3-Setup-pycharm)
+ - [Prepare the Codebase](#4-prepare-the-code-base)
+ - [Define Test function](#5-define-test-function)
+ - [Diagram and description](#6-diagram-and-description)
+ - [Technical Details](#7-technical-details)
+ - [Results](#8-results)
 # Project Overview 
 
  Object detection is a computer vision technique that allows us to identify and locate objects within an image or a video. This capability is crucial for many applications such as autonomous vehicles, security systems, image retrieval systems, and in industrial settings for defect detection.
@@ -101,7 +101,7 @@ pip install timm
 
 ```
 
-### 2. Setup PyCharm 
+### 3. Setup PyCharm 
 
 Setting up PyCharm for a Python project involves several steps to ensure that your development environment is ready for coding. Here’s a step-by-step guide to setting up PyCharm after you've installed it on your machine:
 
@@ -165,7 +165,7 @@ With everything set up, you can start writing your code in the PyCharm editor. U
 After you've completed these steps, your PyCharm environment should be fully configured and ready for you to begin developing your object detection project using the Python codebase you have prepared
 
 
-# 3. Prepare the Codebase
+# 4. Prepare the Codebase
 
 
 ```python
@@ -248,7 +248,7 @@ if __name__ == '__main__':
 
 ```
 
-# 4. Define Test function
+# 5. Define Test function
 PNG [1]: 
 ![almaty_park](https://github.com/vestuyy/object-detection/assets/125790973/f038e378-c7db-44a0-a215-bf4e294bdba3)
 Result [1]:
@@ -262,7 +262,7 @@ Result [2]:
 
 
 
-# 5. Diagram and description 
+# 6. Diagram and description 
 
 
 Project Workflow Description:
@@ -316,7 +316,7 @@ Flow Diagram:
 ![flow_diagram](https://github.com/vestuyy/object-detection/blob/main/fasfasf.PNG)
 This flowchart demonstrates the sequential steps taken in the project, from setting up the development environment to running the object detection script and saving the output. The actual complexity of the diagram can be much greater, depending on the depth of detail required (such as error handling, testing procedures, etc.). In a software diagramming tool, this workflow would typically be represented with more formal symbols and connections, but the above ASCII diagram provides a simplified visual representation of the process.
 
-# 6. Technical Details
+# 7. Technical Details
 
 How Transformers Work
 Transformers are a groundbreaking architecture in the field of natural language processing, introduced in the paper "Attention Is All You Need" by Vaswani et al. in 2017. Unlike previous models that relied on sequential data processing (like RNNs and LSTMs), transformers use a mechanism called self-attention to process input data in parallel, leading to significant improvements in efficiency and performance.
@@ -348,7 +348,7 @@ In the context of object detection, transformers are used to process images and 
 
 • Post-Processing: This step may involve filtering overlapping boxes using methods like Non-Maximum Suppression (NMS) and thresholding the confidence scores to improve the precision of object detection.
 
-# 7. Results
+# 8. Results
 
 ### 1. Performance Metrics:
 
