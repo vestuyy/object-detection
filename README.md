@@ -1,13 +1,13 @@
 # Contents
  - [Project Overview](#project-overview)
- - [Understanding Transformers in Object Detection](#understanding-transformers-in-object-detection)
- - [Prepare the environment](#1-prepare-the-environment)
- - [Setup PyCharm](#2-Setup-pycharm)
- - [Prepare the Codebase](#3-prepare-the-code-base)
- - [Define Test function](#4-define-test-function)
- - [Diagram and description](#5-diagram-and-description)
- - [Technical Details](#6-technical-details)
- - [Results](#7-results)
+ - [Understanding Transformers in Object Detection](#1-understanding-transformers-in-object-detection)
+ - [Prepare the environment](#2-prepare-the-environment)
+ - [Setup PyCharm](#3-Setup-pycharm)
+ - [Prepare the Codebase](#4-prepare-the-code-base)
+ - [Define Test function](#5-define-test-function)
+ - [Diagram and description](#6-diagram-and-description)
+ - [Technical Details](#7-technical-details)
+ - [Results](#8-results)
 # Project Overview 
 
  Object detection is a computer vision technique that allows us to identify and locate objects within an image or a video. This capability is crucial for many applications such as autonomous vehicles, security systems, image retrieval systems, and in industrial settings for defect detection.
